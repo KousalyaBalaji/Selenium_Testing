@@ -1,0 +1,11 @@
+package com.inheritance;
+
+public class Single_Animals {
+
+	int count = 10;
+
+	private void dogs() {
+		System.out.println("Dogs details");
+	}
+
+}

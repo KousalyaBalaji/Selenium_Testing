@@ -1,0 +1,29 @@
+package com.testrunner;
+
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import com.Maven_Cuc.BaseClass;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src\\test\\java\\com\\featurefile", glue ="com\\stepdefinition")
+public class Test_Runner {
+
+	public static WebDriver driver;
+	
+	public void setup() {
+		driver = BaseClass.browserLaunch("Chrome");
+
+	}
+	
+	
+	public void tearDown() {
+	driver.close();
+	BaseClass.closeBrowser();
+
+	}
+	
+}

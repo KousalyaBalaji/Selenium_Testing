@@ -1,0 +1,14 @@
+Feature: Checking The Hotel Booking Functionality Of Adactin Application
+Scenario: Login Functionality
+Given user Should Launch The URL
+When user Enter The Username In Username Field
+And user Enter The Password In Password Field
+Then user Will Click On Login Button
+
+Scenario: Search Hotel Functionality
+When user Select The Location In The Location Field
+And user Select The Hotel In The Hotel Field
+And user Select The Room Type In The Room Type Field
+And user Select No Of Rooms In The No Of Rooms Field
+And user Select The Adults Per Room In The Adults Field
+And user Select The Children Per Room In The Children Field

@@ -1,0 +1,16 @@
+package com.inheritance;
+
+public class Sounds extends Single_Animals{
+
+	public void bark() {
+	
+	Sounds b =  new Sounds();
+	b.dogs();
+	System.out.println("No of dogs : " + count);
+	System.out.println("Dogs Bark");
+	
+
+	}
+	
+	
+}

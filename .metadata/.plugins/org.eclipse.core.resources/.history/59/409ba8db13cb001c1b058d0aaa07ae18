@@ -1,0 +1,69 @@
+package com.stepdefinition;
+
+import com.Maven_Cuc.BaseClass;
+import com.manager.Page_Object_Manager;
+import com.properties.File_Reader_Manager;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class Step_Definition extends BaseClass {
+	public static Page_Object_Manager pom = new Page_Object_Manager(driver);
+
+	@Given("^user Should Launch The URL$")
+	public void user_Should_Launch_The_URL() throws Throwable {
+
+		String url = File_Reader_Manager.getInstanceFRM().getInstanceCR().geturl();
+		urlLaunch(url);
+	}
+
+	@When("^user Enter The Username In Username Field$")
+	public void user_Enter_The_Username_In_Username_Field() throws Throwable {
+		String username = File_Reader_Manager.getInstanceFRM().getInstanceCR().getUsername();
+		passInput(pom.getlp().getUsername(), username);
+	}
+
+	@When("^user Enter The Password In Password Field$")
+	public void user_Enter_The_Password_In_Password_Field() throws Throwable {
+		String password = File_Reader_Manager.getInstanceFRM().getInstanceCR().getPassword();
+		passInput(pom.getlp().getPassword(), password);
+	}
+
+	@Then("^user Will Click On Login Button$")
+	public void user_Will_Click_On_Login_Button() throws Throwable {
+		clickOnElement(pom.getlp().getLogin());
+	}
+
+@When("^user Select The Location In The Location Field$")
+public void user_Select_The_Location_In_The_Location_Field() throws Throwable {
+	selectByValue(pom.getsearch().getLocation(), "New York");
+}
+
+@When("^user Select The Hotel In The Hotel Field$")
+public void user_Select_The_Hotel_In_The_Hotel_Field() throws Throwable {
+	byIndex(pom.getsearch().getHotels(), 3);
+}
+
+@When("^user Select The Room Type In The Room Type Field$")
+public void user_Select_The_Room_Type_In_The_Room_Type_Field() throws Throwable {
+	visibleText(pom.getsearch().getRoom_type(), "Super Deluxe");
+}
+
+@When("^user Select No Of Rooms In The No Of Rooms Field$")
+public void user_Select_No_Of_Rooms_In_The_No_Of_Rooms_Field() throws Throwable {
+	selectByValue(pom.getsearch().getRoom_nos(), "2");
+}
+
+@When("^user Select The Adults Per Room In The Adults Field$")
+public void user_Select_The_Adults_Per_Room_In_The_Adults_Field() throws Throwable {
+	visibleText(pom.getsearch().getChild_room(), "1 - One");
+}
+
+@When("^user Select The Children Per Room In The Children Field$")
+public void user_Select_The_Children_Per_Room_In_The_Children_Field() throws Throwable {
+	visibleText(pom.getsearch().getChild_room(), "1 - One");
+}
+
+
+}

@@ -1,0 +1,17 @@
+package com.abstraction;
+
+public class Class_B extends Class_A{
+
+	@Override
+	void ifsc() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void acntno() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

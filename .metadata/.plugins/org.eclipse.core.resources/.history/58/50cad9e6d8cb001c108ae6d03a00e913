@@ -1,0 +1,33 @@
+Feature: Checking The Hotel Booking Functionality Of Adactin Application
+Scenario: Login Functionality
+Given user Should Launch The URL
+When user Enter The Username In Username Field
+And user Enter The Password In Password Field
+Then user Will Click On Login Button
+
+Scenario: Search Hotel Functionality
+When user Select The Location In The Location Field
+And user Select The Hotel In The Hotel Field
+And user Select The Room Type In The Room Type Field
+And user Select No Of Rooms In The No Of Rooms Field
+And user Select The Adults Per Room In The Adults Field
+And user Select The Children Per Room In The Children Field
+Then user Will Click On Search Button
+
+Scenario: Select Hotel Functionality
+When user Select The Hotel Information
+Then user Will Click On Continue Button
+
+Scenario: Book Hotel Functionality
+When user Enters The First Name In The Firstname Field
+And user Enters The Last Name In The Lastname Field
+And user Enters The Address In The Address Field
+And user Enters The Creditcard No In The Creditcard Field
+And user Select The Creditcard Type In The Creditcard Type  Field
+And user Select The Expiry Month Type In The Expiry Date  Field
+And user Select The Expiry Year Type In The Expiry Date  Field
+And user Enters The Cvv Number No In The Cvv Number Field
+Then user Will Click On Booknow Button
+
+Scenario: Logout Functionality
+When user Will Click On Logout Button

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;currentUrl&apos; from expression &apos;driver.getCurrentUrl()&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Testing&apos;&#x0D;&#x0A;- Variable name: &apos;currentUrl&apos;&#x0D;&#x0A;- Destination method: &apos;com.basics.Webdriver_Methods.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;driver.getCurrentUrl()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;currentUrl&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.basics{Webdriver_Methods.java" name="currentUrl" replace="true" selection="817 0" stamp="1648063278897" varType="false" version="1.0"/>
+</session>

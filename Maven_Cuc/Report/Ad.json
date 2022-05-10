@@ -1,0 +1,607 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1766600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "checking-the-hotel-booking-functionality-of-adactin-application;login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 230500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85103790800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Should Launch The URL",
+            "match": {
+              "location": "Step_Definition.user_Should_Launch_The_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208651000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Enter The \"abc\" In Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_In_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89652100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter The \"9876\" In Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9876",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_In_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1736281300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Will Click On Login Button",
+            "match": {
+              "location": "Step_Definition.user_Will_Click_On_Login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 693100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "checking-the-hotel-booking-functionality-of-adactin-application;login-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 132500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 370810800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Should Launch The URL",
+            "match": {
+              "location": "Step_Definition.user_Should_Launch_The_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118447200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Enter The \"hij\" In Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hij",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_In_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84249100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter The \"0987\" In Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0987",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_In_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456929600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Will Click On Login Button",
+            "match": {
+              "location": "Step_Definition.user_Will_Click_On_Login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 280500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search Hotel Functionality",
+        "description": "",
+        "id": "checking-the-hotel-booking-functionality-of-adactin-application;search-hotel-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 466849800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45570900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#location\"}\n  (Session info: chrome\u003d101.0.4951.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UAOKD3K\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b030f19ee3214e6bd704a8d9c6da538\n*** Element info: {Using\u003did, value\u003dlocation}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:45)\r\n\tat com.Maven_Cuc.BaseClass.selectByValue(BaseClass.java:184)\r\n\tat com.stepdefinition.Step_Definition.user_Select_In_The_Location_Field(Step_Definition.java:60)\r\n\tat ✽.When user Select \"New York\" In The Location Field(Adactin.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "user Select \"New York\" In The Location Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Definition.user_Select_In_The_Location_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user Select  \"3\" In The Hotel Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 14
+                }
+              ],
+              "location": "Step_Definition.user_Select_In_The_Hotel_Field(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user Select  \"Super Deluxe\" In The Room Type Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Super Deluxe",
+                  "offset": 14
+                }
+              ],
+              "location": "Step_Definition.user_Select_In_The_Room_Type_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user Select \"2\" In The No Of Rooms Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Definition.user_Select_In_The_No_Of_Rooms_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user Select \"1 - One\" In The Adults Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 - One",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Definition.user_Select_In_The_Adults_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user Select \"1 - One\" In The Children Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 - One",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Definition.user_Select_In_The_Children_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user Will Click On Search Button",
+            "match": {
+              "location": "Step_Definition.user_Will_Click_On_Search_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 139900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Select Hotel Functionality",
+        "description": "",
+        "id": "checking-the-hotel-booking-functionality-of-adactin-application;select-hotel-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 428942300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20917300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#radiobutton_0\"}\n  (Session info: chrome\u003d101.0.4951.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UAOKD3K\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b030f19ee3214e6bd704a8d9c6da538\n*** Element info: {Using\u003did, value\u003dradiobutton_0}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat com.Maven_Cuc.BaseClass.clickOnElement(BaseClass.java:72)\r\n\tat com.stepdefinition.Step_Definition.user_Select_The_Hotel_Information(Step_Definition.java:95)\r\n\tat ✽.When user Select The Hotel Information(Adactin.feature:25)\r\n",
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "user Select The Hotel Information",
+            "match": {
+              "location": "Step_Definition.user_Select_The_Hotel_Information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user Will Click On Continue Button",
+            "match": {
+              "location": "Step_Definition.user_Will_Click_On_Continue_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 118300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Book Hotel Functionality",
+        "description": "",
+        "id": "checking-the-hotel-booking-functionality-of-adactin-application;book-hotel-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 480711700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41295900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#first_name\"}\n  (Session info: chrome\u003d101.0.4951.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UAOKD3K\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b030f19ee3214e6bd704a8d9c6da538\n*** Element info: {Using\u003did, value\u003dfirst_name}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\r\n\tat com.Maven_Cuc.BaseClass.passInput(BaseClass.java:67)\r\n\tat com.stepdefinition.Step_Definition.user_Enters_The_First_Name_In_The_Firstname_Field(Step_Definition.java:106)\r\n\tat ✽.When user Enters The First Name In The Firstname Field(Adactin.feature:29)\r\n",
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "user Enters The First Name In The Firstname Field",
+            "match": {
+              "location": "Step_Definition.user_Enters_The_First_Name_In_The_Firstname_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user Enters The Last Name In The Lastname Field",
+            "match": {
+              "location": "Step_Definition.user_Enters_The_Last_Name_In_The_Lastname_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user Enters The Address In The Address Field",
+            "match": {
+              "location": "Step_Definition.user_Enters_The_Address_In_The_Address_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user Enters The Creditcard No In The Creditcard Field",
+            "match": {
+              "location": "Step_Definition.user_Enters_The_Creditcard_No_In_The_Creditcard_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user Select The \"VISA\" Type In The Creditcard Type  Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VISA",
+                  "offset": 17
+                }
+              ],
+              "location": "Step_Definition.user_Select_The_Type_In_The_Creditcard_Type_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user Select The \"January\" In The Expiry Date  Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "January",
+                  "offset": 17
+                }
+              ],
+              "location": "Step_Definition.user_Select_The_In_The_Expiry_Date_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user Select The \"2012\" In The Expiry Year  Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2012",
+                  "offset": 17
+                }
+              ],
+              "location": "Step_Definition.user_Select_The_In_The_Expiry_Year_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user Enters The Cvv Number No In The Cvv Number Field",
+            "match": {
+              "location": "Step_Definition.user_Enters_The_Cvv_Number_No_In_The_Cvv_Number_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "user Will Click On Booknow Button",
+            "match": {
+              "location": "Step_Definition.user_Will_Click_On_Booknow_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 123100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Logout Functionality",
+        "description": "",
+        "id": "checking-the-hotel-booking-functionality-of-adactin-application;logout-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 469262500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42029500,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()\u003d\u0027Logout\u0027]\"}\n  (Session info: chrome\u003d101.0.4951.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UAOKD3K\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b030f19ee3214e6bd704a8d9c6da538\n*** Element info: {Using\u003dxpath, value\u003d//a[text()\u003d\u0027Logout\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat com.Maven_Cuc.BaseClass.clickOnElement(BaseClass.java:72)\r\n\tat com.stepdefinition.Step_Definition.user_Will_Click_On_Logout_Button(Step_Definition.java:155)\r\n\tat ✽.When user Will Click On Logout Button(Adactin.feature:40)\r\n",
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "user Will Click On Logout Button",
+            "match": {
+              "location": "Step_Definition.user_Will_Click_On_Logout_Button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Checking The Hotel Booking Functionality Of Adactin Application",
+    "description": "",
+    "id": "checking-the-hotel-booking-functionality-of-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]

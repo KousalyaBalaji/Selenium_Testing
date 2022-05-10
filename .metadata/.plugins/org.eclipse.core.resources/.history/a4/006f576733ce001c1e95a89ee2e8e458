@@ -1,0 +1,19 @@
+package com.abstraction;
+
+public abstract class Class_A {
+
+	private void bank() {
+		System.out.println("SBI");
+
+	}
+
+	private void loc() {
+		System.out.println("chennai");
+
+	}
+
+	abstract void ifsc();
+
+	abstract void acntno();
+
+}
